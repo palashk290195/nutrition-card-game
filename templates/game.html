@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Card Game</title>
+    <style>
+        .card-detail {
+            margin: 10px;
+            padding: 10px;
+            border: 1px solid #ddd;
+        }
+        .card-name {
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Nutrition Card Game</h1>
+    <form method="POST">
+        <div id="playerArea">
+            {% for player, cards in players.items() %}
+                <div class="player" id="{{ player }}">
+                    <h2>{{ player }} - Cards: {{ cards|length }} - Score: {{ scores[player] }}</h2>
+                    {% if current_cards.get(player) %}
+                        <div class="card-detail">
+                            <p class="card-name">{{ current_cards[player].name }}</p>
+                            <p>Protein (%): {{ current_cards[player].protein }}</p>
+                            <p>Fiber (%): {{ current_cards[player].fiber }}</p>
+                            <p>Calories/100g: {{ current_cards[player].calories }}</p>
+                            <p>Fat (%): {{ current_cards[player].fat }}</p>
+                            <p>Sugar (%): {{ current_cards[player].sugar }}</p>
+                            <p>Water Content (%): {{ current_cards[player].waterContent }}</p>
+                            <p>Sodium (mg/100g): {{ current_cards[player].sodium }}</p>
+                            <p>Satiety Index: {{ current_cards[player].satietyIndex }}</p>
+                        </div>
+                    {% endif %}
+                    <button type="submit" name="reveal" value="{{ player }}">Reveal Card</button>
+                </div>
+            {% endfor %}
+        </div>
+        <label for="winner">Select the winner:</label>
+        <select name="winner" id="winner">
+            {% for player in players %}
+                <option value="{{ player }}">{{ player }}</option>
+            {% endfor %}
+        </select>
+        <button type="submit">Next Round</button>
+    </form>
+</body>
+</html>

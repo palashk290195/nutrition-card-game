@@ -1,0 +1,46 @@
+name,protein,fiber,calories,fat,sugar,waterContent,sodium,satietyIndex
+Chicken Biryani,25,2,165,5,1,60,300,5
+Masoor Dal,25,11,116,0.4,2,70,2,7
+Palak Paneer,18,3,100,4,2,80,400,6
+Aloo Gobi,2,3,60,0.1,3,90,20,6
+Butter Chicken,22,1,240,15,3,60,600,4
+Chole,9,7,164,4,7,60,400,7
+Rogan Josh,18,2,190,10,2,60,370,4
+Naan Bread,9,2,310,5,3,30,500,3
+Samosa,5,4,290,12,2,25,550,3
+Raita,3,1,60,3,4,85,35,5
+Dal Makhani,9,6,130,5,2,70,400,6
+Tandoori Chicken,25,0,220,10,0,60,800,5
+Paneer Tikka,18,2,250,20,2,55,550,5
+Bhindi Masala,2,3,75,6,2,85,20,6
+Gulab Jamun,4,1,300,14,20,30,100,2
+Vada Pav,3,3,220,10,2,50,380,4
+Pav Bhaji,4,3,180,8,5,70,600,5
+Kheer,3,1,100,2,10,80,50,3
+Dosa,3,2,160,5,1,35,380,4
+Idli,3,1,80,0.5,1,65,5,5
+Chapati,3,2,120,1,1,30,250,4
+Malai Kofta,4,3,260,20,4,60,500,4
+Vegetable Biryani,4,3,130,4,2,60,300,5
+Fish Curry,20,1,110,3,2,70,350,5
+Mutton Curry,18,0,200,15,0,60,400,4
+Pani Puri,2,1,100,2,3,30,450,2
+Kadai Paneer,14,2,190,12,3,65,550,5
+Chicken Tikka Masala,20,2,180,10,3,60,500,4
+Mango Lassi,4,1,80,2,10,85,40,3
+Chana Masala,7,6,120,4,6,70,400,7
+Pakora,3,3,290,15,2,20,500,3
+Baingan Bharta,1,3,90,7,5,80,20,6
+Shahi Paneer,14,1,230,20,4,50,450,4
+Rasam,2,1,35,1,2,90,20,5
+Kulfi,3,0,180,10,20,60,60,2
+Potato Chips,7,5,540,35,1,2,500,2
+Chocolate Bar,5,2,530,30,50,1,80,2
+Vanilla Ice Cream,3,0,200,11,20,60,45,2
+Chocolate Cake,5,2,370,15,40,25,380,2
+Soft Drink,0,0,42,0,11,89,11,1
+Pizza,11,2,270,10,3,60,640,4
+Burger,14,2,250,12,5,50,480,4
+Donut,4,1,420,25,25,20,380,2
+French Fries,3,4,320,15,0.5,40,210,3
+Popcorn,8,15,500,28,1,3,800,6
